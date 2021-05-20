@@ -53,3 +53,34 @@ h2 {
 .option a:hover {
     background-color: gray;
 }
+
+.section {
+    width: 100%;
+}
+
+.projects {
+    width: 300px;
+}
+
+.work-experience {
+    width: 300px;
+}
+
+.contact {
+    width: 300px;
+}
+
+@media only screen and (max-width: 960px) {
+    .main-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+  }
+
+@media only screen and (min-width: 960px) {
+    .main-flex {
+        display: flex;
+        justify-content: space-around;
+    }
+}
